@@ -2,7 +2,7 @@ from socket import *
 
 from datetime import datetime
 import json
-
+#rew
 
 def send(temperature, humidity, socket):
     dict = {'timestamp':datetime.now().strftime("%X"), 'temperature':temperature, 'humidity':humidity}
